@@ -1,0 +1,20 @@
+{
+  "name": "test-jan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terzer-jan/test-jan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terzer-jan/test-jan/issues"
+  },
+  "homepage": "https://github.com/terzer-jan/test-jan#readme"
+}
