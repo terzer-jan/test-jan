@@ -11,6 +11,7 @@ my_http.createServer(function(request,response){
   console.log(request.url);
   var my_path = url.parse(request.url).pathname;
   console.log(my_path);
+  if(my_path == '/')my_path = '/index.html';
   var full_path = path.join(process.cwd(),my_path);
   console.log(full_path);
   filesys.exists(full_path,function(exists){
