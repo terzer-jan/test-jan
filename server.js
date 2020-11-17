@@ -36,5 +36,5 @@ my_http.createServer(function(request,response){
       });
     }
   });
-}).listen(8080);
-sys.puts("Server started Running on 8080 at " + my.dateTime()); 
+}).listen(process.env.PORT || 3000);
+sys.puts("Server started Running on " +(process.env.PORT || 3000)+ " at " + my.dateTime()); 
